@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Image from "next/image";
 import Head from "next/head";
-import styles from "../styles/home.module.css";
+import styles from "./main.module.css";
 import Button from "../components/PrimaryButton";
 import Link from "../components/Link";
 import { motion } from "framer-motion";

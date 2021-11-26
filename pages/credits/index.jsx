@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Button from "../../components/PrimaryButton";
 import BackButton from "../../components/BackButton";
 import Image from "next/image";
 import styles from "./credits.module.css";
