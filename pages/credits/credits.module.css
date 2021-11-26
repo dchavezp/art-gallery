@@ -1,0 +1,66 @@
+.image {
+  object-fit: cover;
+  border-radius: 100%;
+}
+.container {
+  background-color: #a5a5a5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container h1 {
+  font-family: Magistral Honesty;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.container h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.userCredit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userCredit h3 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+.backButton {
+  position: absolute;
+  left: 15%;
+  bottom: 15%;
+}
+.userCredit h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #ffffff;
+}
