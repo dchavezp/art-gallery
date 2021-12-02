@@ -44,12 +44,15 @@ export default function Home() {
                 Ir a Galeria
               </Button>
               <Button href="/instructions">Ver Instrucciones</Button>
-              <Link text="Créditos" href="/credits" />
             </div>
+            <Link text="Catálogo virtual" href="https://www.flipsnack.com/carlosponce50/1ra-exposici-n-virtual-de-ates-visuales-unidos-por-el-arte.html" />
+            <Link text="Créditos" href="/credits" />
           </div>
           <div className={styles.rectDec1} />
           <div className={styles.rectDec2} />
           <div className={styles.rectDec3} />
+          <div className={styles.rectDec4} />
+          <div className={styles.rectDec5} />
         </div>
       </motion.div>
     </>

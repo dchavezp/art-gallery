@@ -1,86 +1,137 @@
-.mainContainer{
-    height: 100vh;
-    width: 100%;
-    background: #A5A5A5;
-    display: flex;
-    color: aliceblue;
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  background: #a5a5a5;
+  display: flex;
+  color: aliceblue;
 }
-.leftContainer{
-    width: 60%;
-    height: 100%;
-    background: url(/images/background.jpg);
-    background-size: cover;
+.leftContainer {
+  width: 60%;
+  height: 100%;
+  background: url(/images/background.jpg);
+  background-size: cover;
 }
-.sponsor{
-    opacity: 30%;
+.sponsor {
+  opacity: 30%;
 }
-.rightContainer{
-    width: 40%;
-    padding-left: 72px;
-    padding-right: 72px;
-    padding-bottom: 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.rightContainer {
+  width: 40%;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 999999;
 }
-.rightContainer h1{
-    font-family: 'Magistral Honesty';
-    font-size: 72px;
-    line-height: 80px;
-    margin-bottom: 32px;
-    margin-top: 16px;
+.rightContainer h1 {
+  font-family: "Magistral Honesty";
+  font-size: 72px;
+  line-height: 80px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 72px;
+  color: #141414;
+  position: relative;
 }
-.rightContainer h3{
-    font-family: 'Quicksand';
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 300;
-    text-transform: uppercase;
+.rightContainer h1::before {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  content: "";
+  top: -8px;
+  left: -8px;
+  background: rgba(255, 255, 255, 0.21);
+  z-index: -1;
 }
-.rightContainer h4{
-    font-family: 'Quicksand';
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 300;
-    margin: 0;
+.rightContainer h3 {
+  font-family: "Quicksand";
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.rightContainer h2{
-    font-family: 'Quicksand';
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
-    margin: 0;
+.rightContainer h4 {
+  font-family: "Quicksand";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  margin: 0;
 }
-.mainActions{
-    width: 100%;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.rightContainer h2 {
+  font-family: "Quicksand";
+  font-size: 88px;
+  line-height: 48px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  position: absolute;
+  right: 44px;
+  bottom: 40px;
+  z-index: 999999;
 }
-.rectDec1{
-    position: absolute;
-    width: 79px;
-    height: 133px;
-    background-color: #fff;
-    top: 0;
-    left: -40px;
+.mainActions {
+  width: 80%;
+  padding-top: 32px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.rectDec2{
-    position: absolute;
-    width: 44px;
-    height: 159px;
-    background-color: #fff;
-    right: 0;
+.rectDec1 {
+  position: absolute;
+  width: 143px;
+  height: 133px;
+  background: rgba(162, 87, 0, 0.33);
+  backdrop-filter: blur(20px);
+  top: 0;
+  left: -104px;
 }
-.rectDec3{
-    position: absolute;
-    width: 79px;
-    height: 218px;
-    bottom: 0;
-    left: -40px;
-    background-color: #fff;
+.rectDec2 {
+  position: absolute;
+  width: 44px;
+  height: 159px;
+  background-color: #a25700;
+  right: 0;
+}
+.rectDec3 {
+  position: absolute;
+  width: 79px;
+  height: 218px;
+  bottom: 0;
+  left: -40px;
+  background-color: #a25700;
+}
+.rectDec3 {
+  position: absolute;
+  width: 143px;
+  height: 178px;
+  bottom: 0;
+  left: -104px;
+  background: rgba(162, 87, 0, 0.33);
+  backdrop-filter: blur(20px);
+  border-radius: 0px 71.5px 0px 0px;
+}
+.rectDec4 {
+  position: absolute;
+  width: 143px;
+  height: 178px;
+  bottom: 0;
+  right: 0;
+  background: rgba(162, 87, 0, 0.33);
+  backdrop-filter: blur(20px);
+}
+.rectDec5 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 104px;
+  right: 104px;
+  background: rgba(162, 87, 0, 0.33);
+  backdrop-filter: blur(20px);
+  border-radius: 100%;
 }
