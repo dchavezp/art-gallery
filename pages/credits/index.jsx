@@ -25,8 +25,7 @@ function CreditsPage() {
           className={styles.image}
         ></Image>
         <h3>Dewitt Scott Chavez Ponce</h3>
-        <h4>Ingeniero de Software/Software Engineer</h4>
-        <h4>Diseñador de Interfaces/User Interface Designer</h4>
+        <h4>Ingeniero de Software<br/>Software Engineer</h4>
       </div>
       <div className={styles.backButton}>
         <BackButton href="/" />
